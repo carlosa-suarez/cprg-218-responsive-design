@@ -7,9 +7,17 @@ img {
     width: 100%;
 }
 
+@media screen and (min-width: 320px) {
+    body {
+        background-color: yellow;
+        color: black;
+    }
+}
+
 @media screen and (min-width: 600px) {
     body {
         background-color: blue;
+        color: white;
     }
 }
 @media only screen and (min-width: 900px) {
